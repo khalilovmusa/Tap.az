@@ -1,0 +1,79 @@
+.header-of-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.header-left-section{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.header-left-section a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+.header-left-section a:hover{
+  color: orange;
+  transition: 0.15s;
+
+}
+
+.header-right-section{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.header-right-section a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+.header-right-section a:hover{
+  color: orange;
+  transition: 0.15s;
+
+}
+
+.number-container-div:hover a{
+  color: orange;
+}
+
+.message-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.message-container:hover a{
+  color: orange;
+
+}
+
+.choosen-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.choosen-container:hover a{
+  color:orange;
+}
+
+.login-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.login-container:hover a{
+  color: orange;
+  
+}
