@@ -168,8 +168,31 @@
   flex-direction: row;
   align-items: center;
   position: absolute;
-  top: -7px;
-  left: 50px;
-  color: #fff;
+  top: 0;
+  bottom: -2px;
+  right: 80px;
+  color: grey;
 
+}
+
+.input-element{
+  width: 500px;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 7px;
+
+}
+
+.search-button-container{
+  position: absolute;
+  right: 0;
+  top: -8px;
+
+}
+
+.search-button-container button{
+  display: flex;
+  flex-direction: row;
+  width: 70px;
 }
