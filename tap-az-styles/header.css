@@ -2,19 +2,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  padding-left: 100px;
+  padding-right: 150px;
+
 }
 
 .header-left-section{
   display: flex;
   flex-direction: row;
   gap: 10px;
-
+  font-size : 17px;
 }
 
 .header-left-section a {
   text-decoration: none;
-  color: grey;
+  color: rgb(173, 173, 173);
 
 }
 
@@ -27,13 +29,14 @@
 .header-right-section{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
+  font-size : 17px;
 
 }
 
 .header-right-section a {
   text-decoration: none;
-  color: grey;
+  color: rgb(173, 173, 173);
 
 }
 
@@ -45,6 +48,11 @@
 
 .number-container-div:hover a{
   color: orange;
+}
+
+.nuber-svg-container{
+  margin-right: 5px;
+
 }
 
 .message-container{
@@ -75,5 +83,51 @@
 
 .login-container:hover a{
   color: orange;
+
+}
+
+.message-svg-container{
+  margin-right: 5px;
+
+}
+
+.choosen-svg-container{
+  margin-right: 5px;
+
+}
+
+.login-svg-container{
+  margin-right: 5px;
+
+}
+
+.main-header-section{
+  background-color: rgb(255, 72, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   
+}
+
+.tap-az-logo-container{
+  margin-left: 100px;
+
+}
+
+.tap-az-logo-image{
+  width: 100px;
+  object-fit: fill;
+  object-position: middle;
+  
+}
+
+.catalouge-button{
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  background-color:  rgb(255, 72, 0);
+  border: none;
+  color: #fff;
+
 }
