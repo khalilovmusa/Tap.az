@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--bootstrap icon insert tags-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="tap-az-styles/general.css">
   <link rel="stylesheet" href="tap-az-styles/header.css">
   <title>Tap.az</title>
@@ -97,18 +99,38 @@
         </a>
       </div>
       <div class="catalouge-dropdown-container">
-        <button class="catalouge-button">
-          <div class="catalouge-button-icon">
-            <i class="bi bi-microsoft"></i>
-          </div>
-          <div class="catalouge-button-text">
-            Kataloq
-          </div>
-        </button>
+        <a class="catalouge-button-link" href="#">
+          <button class="catalouge-button">
+            <div class="catalouge-button-icon">
+              <i class="bi bi-microsoft"></i>
+            </div>
+            <div class="catalouge-button-text">
+              Kataloq
+            </div>
+          </button>
+        </a>
       </div>
       <div class="input-searchbox-container">
-        <input type="search" placeholder="Əşya və ya xidmət axtarışı
-        ">
+        <div class="input-itself">
+          <input type="search" placeholder="Əşya və ya xidmət axtarışı
+          ">
+        </div>
+        <div class="location-dropdown-container">
+          <div class="location-dropdown-icon">
+            <i class="bi bi-geo-alt-fill"></i>
+          </div>
+          <div class="dropdown">
+            <a class="btn  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Şəhər
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
       <div class="new-announcement-button-container">
         <button class="new-announcement-button">

@@ -4,7 +4,8 @@
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 150px;
-
+  height: 30px;
+  align-items: center;
 }
 
 .header-left-section{
@@ -106,7 +107,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+  height: 70px;
+
 }
 
 .tap-az-logo-container{
@@ -121,13 +123,53 @@
   
 }
 
+.catalouge-dropdown-container{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.catalouge-button-icon{
+  margin-right: 5px;
+  font-size: 20px;
+
+}
+
+.catalouge-button-link{
+  text-decoration: none;
+
+}
+
 .catalouge-button{
   display: flex;
   flex-direction: row;
-  height: 40px;
+  width: 70px;
   align-items: center;
   background-color:  rgb(255, 72, 0);
   border: none;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+.catalouge-button{
+  cursor: pointer;
+
+}
+
+.input-searchbox-container{
+  margin-left: 20px;
+  position: relative;
+
+}
+
+.location-dropdown-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: -7px;
+  left: 50px;
   color: #fff;
 
 }
