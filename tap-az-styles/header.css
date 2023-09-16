@@ -176,12 +176,24 @@
 }
 
 .input-element{
-  width: 500px;
+  width: 600px;
   height: 40px;
   padding-left: 10px;
   border: none;
   border-radius: 7px;
 
+}
+
+.input-element :focus{
+  border: none;
+  border-style: solid;
+  border-width: 0;
+  border-color: transparent;
+
+}
+
+.dropdown-menu:active .location-dropdown-icon{
+  color: orange;
 }
 
 .search-button-container{
@@ -191,8 +203,64 @@
 
 }
 
+.search-button-text{
+  margin-left: 5px;
+
+}
+
+.search-button-icon{
+  margin-left: 3px;
+
+}
+
 .search-button-container button{
   display: flex;
   flex-direction: row;
-  width: 70px;
+  background-color:rgb(255, 72, 0);
+  border: none;
+  color: #fff;
+  font-weight: lighter;
+  text-align: center;
+  width: 58px;
+  height: 35px;
+  border-radius: 7px;
+  margin-right: 3px;
+  margin-top: 11px;
+  padding-top: 5px;
+  padding-left: 3px;
+  
+}
+
+.new-announcement-button-container{
+  margin-left: 15px;
+  
+}
+
+.new-announcement-button-container button a{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.new-announcement-button{
+  border: none;
+  height: 35px;
+  background-color: rgb(135, 211, 22); 
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.new-announcement-button a{
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+.button-icon {
+  margin-right: 5px;
+
 }
