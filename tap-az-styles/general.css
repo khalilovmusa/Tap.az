@@ -1,22 +1,22 @@
-*{
+* {
   font-family: Arial;
   margin: 0;
   padding: 0;
 
 }
 
-.nav-section{
+.nav-section {
   display: flex;
   flex-direction: row;
   padding-left: 180px;
   padding-top: 30px;
   background-color: whitesmoke;
-  
+
 }
 
-.transport-nav-image-itself{
-  height: 100px;
-  width: 100px;
+.transport-nav-image-itself {
+  height: 95px;
+  width: 95px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -27,24 +27,194 @@
 
 }
 
-.transport-nav-container:hover .transport-nav-image-itself{
+.transport-nav-container:hover .transport-nav-image-itself {
   border-color: orangered;
   border-width: 1.5px;
   border-style: solid;
   transition: 0.15s;
-  
+
 }
 
-.transport-nav-text{
+.transport-nav-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-size: 15px;
-
+  margin-top: 5px;
 }
 
-.transport-nav-container:hover{
+.transport-nav-container:hover {
   color: orangered;
   transition: 0.25s;
 
+}
+
+.electronics-nav-image {
+  height: 95px;
+  width: 95px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.electronics-nav-container {
+  margin-left: 40px;
+
+}
+
+.electronics-nav-container:hover .electronics-nav-image {
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.electronics-nav-container:hover {
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.home-and-garden-gadgets-nav-container {
+  margin-left: 40px;
+
+}
+
+.home-and-garden-gadgets-nav-container:hover .home-and-garden-gadgets-image {
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.home-and-garden-gadgets-nav-container:hover {
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.electronics-nav-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.home-and-garden-gadgets-image {
+  height: 95px;
+  width: 95px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.home-and-garden-gadgets-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+
+.flats-and-houses-nav-container {
+  margin-left: 40px;
+
+}
+
+.flats-and-houses-nav-container:hover .flats-and-houses-nav-image {
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.flats-and-houses-nav-container:hover {
+  color: orangered;
+  transition: 0.25s;
+}
+
+.flats-and-houses-nav-image {
+  height: 95px;
+  width: 95px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.flats-and-houses-nav-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+
+.business-and-serving-nav-container {
+  margin-left: 40px;
+
+}
+
+.business-and-serving-nav-container:hover .business-and-serving-image {
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.business-and-serving-nav-container:hover {
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.business-and-serving-image{
+  height: 95px;
+  width: 95px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.business-and-serving-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+  
 }
