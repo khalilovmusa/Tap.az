@@ -15,8 +15,8 @@
 }
 
 .transport-nav-image-itself {
-  height: 95px;
-  width: 95px;
+  height: 90px;
+  width: 90px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -50,8 +50,8 @@
 }
 
 .electronics-nav-image {
-  height: 95px;
-  width: 95px;
+  height: 90px;
+  width: 90px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -109,8 +109,8 @@
 }
 
 .home-and-garden-gadgets-image {
-  height: 95px;
-  width: 95px;
+  height: 90px;
+  width: 90px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -151,8 +151,8 @@
 }
 
 .flats-and-houses-nav-image {
-  height: 95px;
-  width: 95px;
+  height: 90px;
+  width: 90px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -195,8 +195,8 @@
 }
 
 .business-and-serving-image{
-  height: 95px;
-  width: 95px;
+  height: 90px;
+  width: 90px;
   border: none;
   border-radius: 19px;
   object-fit: cover;
@@ -216,5 +216,93 @@
   width: 100px;
   margin-left: 10px;
   margin-top: 5px;
-  
+
+}
+
+.hobbies-and-others-nav-container{
+  margin-left: 40px;
+
+}
+
+.hobbies-and-others-nav-container:hover .hobbies-and-others-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.hobbies-and-others-nav-container:hover{
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.hobbies-and-others-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.hobbies-and-others-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+
+.baby-world-nav-container{
+  margin-left: 40px;
+
+}
+
+.baby-world-nav-container:hover .baby-world-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.baby-world-nav-container:hover{
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.baby-world-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.baby-world-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: -3px;
+  margin-top: 5px;
+
 }
