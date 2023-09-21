@@ -473,3 +473,14 @@
   margin-left: -3px;
   margin-top: 5px;
 }
+
+.birbank-announcement-container{
+  padding-left: 180px;
+  background-color: whitesmoke;
+  padding-top: 30px;
+
+}
+
+.birbank-announcement-image{
+  width: 960px;
+}
