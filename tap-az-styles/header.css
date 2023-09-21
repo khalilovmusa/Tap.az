@@ -184,13 +184,15 @@
 
 }
 
-.input-element :focus{
-  border: none;
-  border-style: solid;
-  border-width: 0;
-  border-color: transparent;
-
+.input-element:focus{
+  outline: none;
 }
+
+/*
+input[type=search]:focus{
+  outline: none;
+
+}*/
 
 .dropdown-menu:active .location-dropdown-icon{
   color: orange;

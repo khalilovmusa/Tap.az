@@ -14,6 +14,8 @@
 
 }
 
+
+
 .transport-nav-image-itself {
   height: 90px;
   width: 90px;
@@ -305,4 +307,169 @@
   margin-left: -3px;
   margin-top: 5px;
 
+}
+
+.nav-section-second-row{
+  display: flex;
+  flex-direction: row;
+  padding-left: 180px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+}
+
+.animals-nav-container:hover .animals-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+
+}
+
+.animals-nav-container:hover{
+  color: orangered;
+  transition: 0.25s;
+
+}
+
+.animals-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+
+}
+
+.animals-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: -3px;
+  margin-top: 5px;
+
+}
+
+.work-announcements-nav-container:hover .work-announcements-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+}
+
+.work-announcements-nav-container:hover{
+  color: orangered;
+  transition: 0.25s;
+}
+
+.work-announcements-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.work-announcements-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: -3px;
+  margin-top: 5px;
+
+}
+
+.work-announcements-nav-container{
+  margin-left: 40px;
+}
+
+.catalouge-nav-container{
+  margin-left: 40px;
+}
+
+.catalouge-nav-container:hover .catalouge-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+}
+
+.catalouge-nav-container:hover {
+  color: orangered;
+  transition: 0.25s;
+}
+
+.catalouge-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.catalouge-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: -3px;
+  margin-top: 5px;
+}
+
+.shops-nav-container{
+  margin-left: 40px;
+}
+
+.shops-nav-container:hover .shops-nav-image{
+  border-color: orangered;
+  border-width: 1.5px;
+  border-style: solid;
+  transition: 0.15s;
+}
+
+.shops-nav-container:hover{
+  color: orangered;
+  transition: 0.25s;
+}
+
+.shops-nav-image{
+  height: 90px;
+  width: 90px;
+  border: none;
+  border-radius: 19px;
+  object-fit: cover;
+  position: relative;
+  border-width: 1.5px;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.shops-nav-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  margin-left: -3px;
+  margin-top: 5px;
 }
