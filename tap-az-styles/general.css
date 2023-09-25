@@ -525,3 +525,45 @@
 .all-vip-announcements-text{
   margin-top: 20px;
 }
+
+.products-part-section-div{
+  margin-left: 180px;
+
+}
+
+.computer-product-image{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: right;
+
+}
+
+.computer-product-div{
+  height: 400px;
+  width: 200px;
+  border-radius: 7px;
+  border: none;
+  
+}
+
+.price{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.product-name{
+  font-size: 15px;
+  font-weight: light;
+  color:gray;
+
+}
+
+.product-location-and-time{
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+  font-size: 100px;
+  
+}
