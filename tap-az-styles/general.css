@@ -2,7 +2,7 @@
   font-family: Arial;
   margin: 0;
   padding: 0;
-  
+
 }
 
 .nav-section {
@@ -529,25 +529,46 @@
 }
 
 .products-part-section-div{
-  margin-left: 180px;
-  margin-top: 10px;
-  
+  padding-left: 180px;
+  padding-top: 10px;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 40px;
+  row-gap: 20px;
+
 }
+
 
 .computer-product-image{
   height: 200px;
   width: 200px;
   object-fit: cover;
   object-position: right;
+  border: none;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 
 }
 
 .computer-product-div{
   height: 300px;
   width: 200px;
-  border-radius: 7px;
+  border-radius: 10px;
   border: none;
-  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+  background-color: #fff;
+
+}
+
+.computer-product-div:hover{
+  box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.1);
+
+}
+
+.computer-details-container{
+  padding-left: 7px;
+  padding-top: 5px;
+
 }
 
 .price{
@@ -570,3 +591,9 @@
 
 }
 
+.birbank-announcement-div-image{
+  width: 500px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
