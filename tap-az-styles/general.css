@@ -2,7 +2,7 @@
   font-family: Arial;
   margin: 0;
   padding: 0;
-
+  
 }
 
 .nav-section {
@@ -524,11 +524,14 @@
 
 .all-vip-announcements-text{
   margin-top: 20px;
+  height: 20px;
+
 }
 
 .products-part-section-div{
   margin-left: 180px;
-
+  margin-top: 10px;
+  
 }
 
 .computer-product-image{
@@ -540,11 +543,11 @@
 }
 
 .computer-product-div{
-  height: 400px;
+  height: 300px;
   width: 200px;
   border-radius: 7px;
   border: none;
-  
+  box-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 }
 
 .price{
@@ -564,6 +567,6 @@
   margin-top: 10px;
   font-size: 13px;
   color: gray;
-  font-size: 100px;
-  
+
 }
+
