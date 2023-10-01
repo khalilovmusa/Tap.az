@@ -533,10 +533,10 @@
   padding-top: 10px;
   background-color: whitesmoke;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 220px 220px 220px 220px;
   column-gap: 40px;
   row-gap: 20px;
-
+  position: relative;
 }
 
 
@@ -557,11 +557,12 @@
   border-radius: 10px;
   border: none;
   background-color: #fff;
+  position: relative;
 
 }
 
 .computer-product-div:hover{
-  box-shadow: 1px 1px 1px 0.5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.05);
 
 }
 
@@ -595,5 +596,28 @@
   width: 500px;
   margin-right: 100px;
   margin-left: 100px;
+
+}
+
+.heart-icon-container-div{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.bi-heart{
+  color: #fff;
+  font-size: 22px;
+
+}
+
+.bi-heart-fill{
+  position: absolute;
+  font-size: 20px;
+  color: red;
+  display: none;
+  top: 1.2px;
+  right: 1px;
 
 }
