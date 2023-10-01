@@ -1,24 +1,33 @@
-const inputFocusBorder = document.querySelector(".input-element");
-// console.log(inputFocusBorder);
+// let productsSection = document.querySelector(".products-part-section-div");
 
-inputFocusBorder.addEventListener("focus" , focus);
+// let firstProduct = productsSection.children[0].children[0];
+// let secondProduct = productsSection.children[1];
+// let thridProduct = productsSection.children[2];
+// let fourthProduct = productsSection.children[3];
+// let fifthProduct = productsSection.children[4];
+// let sixthProduct = productsSection.children[5];
+// let seventhProduct = productsSection.children[6];
+// let eightProduct = productsSection.children[7];
 
-function focus(e){
-  console.log(e.type);
-  inputFocusBorder.style.border = "none";
+let productHeart = document.querySelectorAll(".bi-heart");
+let productHeartFill = document.querySelectorAll(".bi-heart-fill");
+
+productHeart.forEach(function(product){
+  product.addEventListener("click" , changeHeartColor);
+});
+
+function changeHeartColor() {
+  console.log(productHeartFill.style);
 }
 
-const heartRadioButton = document.querySelector(".heart-icon-container-div").children[0];
-const heartRadioButtonActive = document.querySelector(".heart-icon-container-div").children[1];
-console.log(heartRadioButtonActive);
-// console.log(heartRadioButton);
-heartRadioButton.addEventListener("click" , displayHeartToUI);
-heartRadioButtonActive.addEventListener("click" , removeHeartFromUI);
+// product.addEventListener("click" , changeHeartColor);
 
-function displayHeartToUI(){
-  heartRadioButtonActive.style.display = "block";
-}
+// firstProduct.children[0].addEventListener("click", changeHeartColor);
+// firstProduct.children[1].addEventListener("click", removeHeartColor);
 
-function removeHeartFromUI(){
-  heartRadioButtonActive.style.display = "none";
-}
+// // .children[0].children[1]
+
+
+// function removeHeartColor() {
+
+// }
