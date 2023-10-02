@@ -12,12 +12,18 @@
 let productHeart = document.querySelectorAll(".bi-heart");
 let productHeartFill = document.querySelectorAll(".bi-heart-fill");
 
-productHeart.forEach(function(product){
+
+
+productHeartFill.forEach(function(product){
   product.addEventListener("click" , changeHeartColor);
 });
 
-function changeHeartColor() {
-  console.log(productHeartFill.style);
+function changeHeartColor(e) {
+  if(e.target.style.color == "red"){
+    e.target.style.color = "transparent";
+  }else{
+    e.target.style.color = "red";
+  }
 }
 
 // product.addEventListener("click" , changeHeartColor);

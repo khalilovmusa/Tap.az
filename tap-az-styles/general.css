@@ -615,8 +615,8 @@
 .bi-heart-fill{
   position: absolute;
   font-size: 20px;
-  color: red;
-  display: none;
+  color: transparent;
+  display: block;
   top: 1.2px;
   right: 1px;
 
