@@ -34,8 +34,11 @@
 
 }
 
+.searches-itself-container-div div:hover {
+  border-color: lightblue;
+}
 
 .searches-itself-container-div{
   margin-top: 10px;
-  
+
 }
