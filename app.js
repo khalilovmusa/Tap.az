@@ -8,6 +8,17 @@
 // let sixthProduct = productsSection.children[5];
 // let seventhProduct = productsSection.children[6];
 // let eightProduct = productsSection.children[7];
+// product.addEventListener("click" , changeHeartColor);
+
+// firstProduct.children[0].addEventListener("click", changeHeartColor);
+// firstProduct.children[1].addEventListener("click", removeHeartColor);
+
+// // .children[0].children[1]
+
+
+// function removeHeartColor() {
+
+// }
 
 let productHeart = document.querySelectorAll(".bi-heart");
 let productHeartFill = document.querySelectorAll(".bi-heart-fill");
@@ -26,14 +37,3 @@ function changeHeartColor(e) {
   }
 }
 
-// product.addEventListener("click" , changeHeartColor);
-
-// firstProduct.children[0].addEventListener("click", changeHeartColor);
-// firstProduct.children[1].addEventListener("click", removeHeartColor);
-
-// // .children[0].children[1]
-
-
-// function removeHeartColor() {
-
-// }

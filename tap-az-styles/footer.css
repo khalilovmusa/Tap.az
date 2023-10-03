@@ -1,0 +1,41 @@
+.popular-searches-footer-section{
+  background-color: #fff;
+  margin-left: 180px;
+  padding-top: 10px;
+
+}
+
+.popular-searches-text-container{
+  display: block;
+  font-size: 25px;
+  color: rgb(190, 51, 0);
+
+}
+
+.searches-itself-container-div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.searches-itself-container-div div a{
+  text-decoration: none;
+  color: rgb(199, 199, 199);
+
+}
+
+.searches-itself-container-div div{
+  border: solid 1px rgb(184, 184, 184);
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 15px;
+
+}
+
+
+.searches-itself-container-div{
+  margin-top: 10px;
+  
+}

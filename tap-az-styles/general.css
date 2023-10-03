@@ -487,6 +487,11 @@
 
 }
 
+/* .main-products-container-section{
+  margin-bottom: 20px;
+
+} */
+
 .products-header-container{
   display: flex;
   flex-direction: row;
@@ -537,6 +542,8 @@
   column-gap: 40px;
   row-gap: 20px;
   position: relative;
+  padding-bottom: 40px;
+
 }
 
 
