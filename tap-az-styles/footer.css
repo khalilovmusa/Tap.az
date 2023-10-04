@@ -73,3 +73,37 @@
   margin-top: 10px;
 
 }
+
+/* footer*/
+
+.footer-header-part{
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  justify-content: space-between;
+  
+}
+
+.footer-header-left-section{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-header-right-section{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-header-email-container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.footer-header-telephone-container{
+  display: flex;
+  flex-direction: row;
+
+}
