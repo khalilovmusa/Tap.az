@@ -76,6 +76,17 @@
 
 /* footer*/
 
+.footer-section{
+  padding-right: 50px;
+  border-top: 2px solid rgb(241, 241, 241);
+  border-bottom: 2px solid rgb(241, 241, 241);
+  margin-top: 10px;
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 8px;
+
+}
+
 .footer-header-part{
   display: flex;
   flex-direction: row;
@@ -105,5 +116,65 @@
 .footer-header-telephone-container{
   display: flex;
   flex-direction: row;
+
+}
+
+.footer-left-part-help-text{
+  margin-right: 30px;
+  font-size: 16px;
+
+}
+
+.footer-header-left-section div:hover{
+  color: orangered;
+  cursor: pointer;
+
+}
+
+.footer-header-right-section div{
+  color: gray;
+
+}
+
+.footer-header-right-section div:hover{
+  color: orangered;
+
+}
+
+.footer-facebook-page-svg-container,
+.footer-instagram-page-svg-container{
+  margin-right: 18px;
+  font-size: 24px;
+
+}
+
+.footer-header-email-container{
+  align-items: center;
+  margin-right: 10px;
+  
+}
+
+.footer-email-svg-container{
+  font-size: 20px;
+
+}
+
+.footer-email-text-container{
+  font-size: 16px;
+
+}
+
+.footer-header-telephone-container{
+  align-items: center;
+
+}
+
+.footer-telephone-svg-container{
+  font-size: 20px;
+
+}
+
+.footer-telephone-text{
+  font-size: 16px;
 
 }
