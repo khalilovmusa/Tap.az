@@ -70,9 +70,20 @@
 .choosen-container{
   display: flex;
   flex-direction: row;
+
 }
 
-.choosen-container:hover a{
+.choosen-svg-container a i{
+  color: rgb(173, 173, 173);
+  position: relative;
+
+}
+
+.choosen-svg-container:hover a{
+  color:orange;
+}
+
+.choosen-container:hover a i{
   color:orange;
 }
 
