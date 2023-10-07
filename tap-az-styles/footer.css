@@ -141,6 +141,20 @@
 
 }
 
+.footer-header-email-container:hover .footer-email-svg-container,
+.footer-header-email-container:hover  .footer-email-text-container{
+  color: orangered;
+  cursor: pointer;
+
+}
+
+.footer-header-telephone-container:hover .footer-telephone-svg-container,
+.footer-header-telephone-container:hover .footer-telephone-text{
+  color: orangered;
+  cursor: pointer;
+
+}
+
 .footer-facebook-page-svg-container,
 .footer-instagram-page-svg-container{
   margin-right: 18px;
@@ -177,4 +191,22 @@
 .footer-telephone-text{
   font-size: 16px;
 
+}
+
+/*Footer cityname part*/
+
+.footer-citynames{
+  display: grid;
+  grid-template-columns: 200px 100px 200px 200px;
+}
+
+.footer-citynames-part-1{
+  margin-left: 180px;
+
+}
+
+.footer-citynames-part-2{
+  margin-left: 180px;
+  display: grid;
+  grid-template-columns: 40px;
 }
