@@ -78,8 +78,8 @@
 
 .footer-section{
   padding-right: 50px;
-  border-top: 2px solid rgb(241, 241, 241);
-  border-bottom: 2px solid rgb(241, 241, 241);
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 2px solid rgb(226, 226, 226);
   margin-top: 10px;
   background-color: whitesmoke;
   padding-top: 10px;
@@ -196,17 +196,58 @@
 /*Footer cityname part*/
 
 .footer-citynames{
-  display: grid;
-  grid-template-columns: 200px 100px 200px 200px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 180px;
+  column-gap: 100px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+
 }
 
-.footer-citynames-part-1{
-  margin-left: 180px;
+.footer-citynames div div{
+  margin-bottom: 5px;
 
 }
 
-.footer-citynames-part-2{
-  margin-left: 180px;
-  display: grid;
-  grid-template-columns: 40px;
+.footer-citynames div div a{
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+
+}
+
+.footer-citynames div div a:hover{
+  color: orangered;
+
+}
+
+
+.footer-of-footer-header-section{
+  margin-left: 130px; 
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.footer-of-footer-header-section div a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+
+}
+
+.footer-of-footer-header-section div a:hover{
+  color: orangered;
+
+}
+
+.bottom-part-of-footer{
+  background-color: orangered;
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+
 }
