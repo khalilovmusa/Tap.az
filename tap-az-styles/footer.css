@@ -249,5 +249,29 @@
   height: 50px;
   width: 100%;
   margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  
+}
 
+.bottom-part-of-footer div{
+  color: #fff;
+  font-size: 15px;
+
+}
+
+.big-text{
+  width: 400px;
+  
+}
+
+.mobile-version-container a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.mobile-version-container a:hover{
+  text-decoration: underline;
+  
 }
