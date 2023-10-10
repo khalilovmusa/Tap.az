@@ -262,7 +262,9 @@
 
 .big-text{
   width: 400px;
-  
+  margin-left: 40px;
+  font-size: 15px;
+
 }
 
 .mobile-version-container a{
@@ -274,4 +276,14 @@
 .mobile-version-container a:hover{
   text-decoration: underline;
   
+}
+
+.voen-text{
+  margin-left: 50px;
+
+}
+
+.mobile-version-container{
+  margin-left: 180px;
+
 }
